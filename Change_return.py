@@ -6,7 +6,6 @@ print(f"Your item costs $ {randomCost:.2f}")
 payment = round(float(input("Type out an amount to pay: $")), 2)
 #Convert to cents
 changeTotal = round((payment - randomCost) * 100)
-print(changeTotal)
 
 # Dollars
 dollars = changeTotal // 100
